@@ -7,3 +7,6 @@ Lechuga
 pan 
 galletistas
 chocolate
+
+manzanas 3 kilos
+helados
