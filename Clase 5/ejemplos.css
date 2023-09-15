@@ -1,0 +1,28 @@
+#rojo{
+    background-color:red;
+    width: 250px;
+    padding: 20px;/*margenes asi adentro se puede escribir "separados o todo junto"*/
+    /*border: 5px solid black;*/
+    border: 5px dashed black;
+    box-sizing: border-box; /*si utilizo paddig y boder hay que usar siempre este box-sizing se va acomodando al tamaño planteado*/
+}
+#azul{
+    background-color: blue;
+    width: 250px;
+    color: aliceblue;
+    /*margin-left: 50px;
+    margin-top: 150px;*/
+    margin: 20px;
+    /*     ariba  izquierda abajo derecha
+    margin: 5px    10px     15px    20px
+
+    ariba ,izquierda y decho,abajo
+    margin: 5px 10px 20px
+
+            aribay abajo, izquierda y derecho X/y
+    margin: 5px 10px 
+
+    yx para todos iguales
+    margin: 20px 
+    */
+}

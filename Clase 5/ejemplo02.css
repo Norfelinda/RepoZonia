@@ -1,0 +1,31 @@
+.caja{
+    background-color: yellowgreen;
+    width: 50%;
+    padding: 20px;
+    margin: 50px;
+    /*la suma sombras
+    primero ejee de la x, segundo y, desenfoque, color
+    -setrabaja como 6 parametros
+    box-shadow: 10px 20px 5px black;
+    box-shadow: -10px 20px 5px black;*/
+
+    box-shadow: 0 0 5px rgba(179, 177, 177,0.5);
+    /*border: 3px solid white;*/
+    border: 3px solid black;
+    /*con border redondeados*/
+    /*border-radius: 20px;*/
+    border-radius: 0 20px;
+    /*border-radius: 0 20px 20px 0;
+    border-radius: 0 120px 0;*/
+    border-radius: 0 120px 0 0;
+}
+.texto{
+    background-color: yellow;
+    column-count: 5;
+    column-gap: 60px;/*separacion "espacio" de colimna*/
+    column-rule: 1px solid black;/*separacion con linia a la columna*/
+}
+/*los paragos por defecto tienen margenes de espacio para sacar ese espacio se ponen mergin 0*/
+.texto p{
+    margin: 0;
+}
