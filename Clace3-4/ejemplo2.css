@@ -1,0 +1,20 @@
+h1{
+    /*comentarios en css*/
+    color: blue;/*color tipografia*/
+    background-color: bisque;/*dondo*/
+    text-transform: uppercase;/*mayuscula*/
+}
+h2{
+    color: red;
+    text-align: center;/*texto centrado*/
+    
+}
+
+p{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;/*separacion entre linea y linea*/
+}
+.destacados{
+    color: orange;
+}
