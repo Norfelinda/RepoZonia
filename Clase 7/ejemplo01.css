@@ -1,0 +1,37 @@
+.caja{
+    margin: 200px;
+    background-color: lightblue;
+    /*width: 400px;*/
+    width: 300px;/*esto va con hover un border-radius: 50%*/
+    height: 300px;
+    display:flex;/*los textos */
+    justify-content: center;
+    align-items:center;
+    font-size:80px;
+    transition: all 0.8s ease;/*hace que el movimiento de transaccion se despacio(no es tan tosco)
+    las transiciones van en aqui y no hover*/
+    opacity: 0.5;
+
+    
+}
+.caja:hover{/*cada ves que paso el mause aparece el color*/
+/* box-shadow:inset 0 0 0 25px red;/* es para poner el color hacia adentro del cuadrado*/
+
+/*  font-size: 100px;*/
+/* background-color: blue;*/
+opacity: 1;/*cuando se 0 1 de opacidad cuando se acerca el mause*/
+border-radius: 50%;
+
+}
+
+img{
+filter:grayscale(100%);/*esto siempre va con hover pero con escala "0"*/
+transition:all 0.5s ease;
+cursor: pointer;
+}
+
+img:hover{
+filter: grayscale(0);
+}
+
+

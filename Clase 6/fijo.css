@@ -1,0 +1,13 @@
+.caja{
+    background-color: red;
+    height: 50px;
+    width: 100%;/* cuando lo sacas este la palabra se adapta.
+    si lo pongo with se adapta 100%, */
+    position: fixed;
+    top: 0;
+   /* z-index: 200; width: 100%; se usa con z-index: cuando el elemento es fijo , el z indes es cuando el capa va bien asi aribaS */
+}
+p{
+    background-color: yellow;
+    margin-top: 52px;
+}

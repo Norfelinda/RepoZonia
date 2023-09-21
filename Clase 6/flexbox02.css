@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    flex-wrap:nowrap ;/*esto es por defecto*/
+    flex-wrap:wrap;/*desbordamiento - multilinial: es lo que mas se va husar,*/
+    flex-wrap: wrap-reverse;
+}
+.item{
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}

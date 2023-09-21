@@ -1,0 +1,24 @@
+.contenedor{
+    background-color: gray;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;/*por defecto*/
+    align-items: flex-end;
+    align-items: center;
+   /* align-items: stretch;*//* se data al largo del contenido*/
+    
+
+}
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;/*con esto avilitamos para mover el texto dento del cuadro*/
+    align-items: center;/*eje y, se centra el texto*/
+    justify-content: center;/*eje x*/
+
+}
+/* se podia haver movido por pocicionamiento o por
+tex-aling
+line-height*/
